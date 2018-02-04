@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.Shahniz_1202150279_Modul1.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Makan Malam"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dengan Milea"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/editTextmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Menu Makanan"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:id="@+id/editTextporsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Porsi Makanan"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttoneatbus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="EATBUS"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/buttonabnormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ABNORMAL"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>
